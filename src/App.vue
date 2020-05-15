@@ -27,14 +27,8 @@
       >
         <a :href="$config.website_url">&#8249; Home</a>
       </div>
-      <div
-        v-if="typeof $config.twitter === 'string'"
-        class="col"
-      >
-        <a
-          :href="https://help.go-on.io"
-          target="_blank"
-        >Help</a>
+      <div class="col">
+        <a href="https://help.go-on.io" target="_blank">Help</a>
       </div>
     </div>
   </div>
